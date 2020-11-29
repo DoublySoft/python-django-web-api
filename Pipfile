@@ -10,3 +10,8 @@ django = "*"
 
 [requires]
 python_version = "3.8"
+
+[scripts]
+dev = "python manage.py runserver 127.0.0.1:8844"
+make = "python manage.py makemigrations"
+migrate = "python manage.py migrate"
